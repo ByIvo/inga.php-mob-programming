@@ -1,0 +1,13 @@
+{
+    "name": "byivo/inga.php-mob-programming",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "authors": [
+        {
+            "name": "Ivo Batistela",
+            "email": "irbatistela@gmail.com"
+        }
+    ],
+    "require": {}
+}
