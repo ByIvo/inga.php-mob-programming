@@ -1,5 +1,6 @@
 {
     "name": "byivo/inga.php-mob-programming",
+    "description": "Ingá.php mobprogramming repository",
     "require-dev": {
         "phpunit/phpunit": "^9.5"
     },
