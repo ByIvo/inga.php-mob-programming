@@ -4,12 +4,6 @@ Salve pessoas, esse repositório é exclusivamente dedicado as soluções dos de
 
 Para participar, é importante que você cumpra todos os [requisitos](#requisitos) mencionados.
 
-
-### Objetivos
-
-1. Poder testar as funcionalidades das novas atualizações do PHP e suas ferramentas.
-1. Poder acompanhar a linha de raciocínio de diferentes programadores PHP.
-
 ### Conteúdo do repositório
 
 1. PHP 7.4.14 (cli) (built: Jan 16 2021 00:10:32) ( NTS )
