@@ -9,5 +9,18 @@
             "email": "irbatistela@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "IngaPhp\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\IngaPhp\\": "test/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit test/."
+    }
 }
