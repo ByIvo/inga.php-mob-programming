@@ -1,3 +1,5 @@
+![PHP Composer](https://github.com/ByIvo/inga.php-mob-programming/workflows/PHP%20Composer/badge.svg)
+
 # Ingá.php MobProgramming
 
 Salve pessoas, esse repositório é exclusivamente dedicado as soluções dos desafios propostos durante os encontros da galera do Ingá.php. 
