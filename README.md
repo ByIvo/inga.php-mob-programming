@@ -12,9 +12,9 @@ Para participar, é importante que você cumpra todos os [requisitos](#requisito
 
 ### Conteúdo do repositório
 
-1. PHP 8.0
-2. Composer 2.0
-3. PHPUnit 7.0
+1. PHP 7.4.14 (cli) (built: Jan 16 2021 00:10:32) ( NTS )
+2. Composer version 2.0.8 2020-12-03 17:20:38
+3. PHPUnit 9.5.1 by Sebastian Bergmann and contributors.
 
 ### Requisitos
 
@@ -24,7 +24,7 @@ Basta acessar o repositório do [mob CLI](https://github.com/remotemobprogrammin
 
 A instalação foi bem sucedida quando, em seu terminal, você obter uma saída parecida com `v0.0.25` ao executar o comando:
 
-```sh
+```shell
 $ mob -v
 ```
 
@@ -32,7 +32,7 @@ $ mob -v
 
 Executar o seguinte comando na sua pasta de projetos:
 
-```sh
+```shell
 git clone git@github.com:ByIvo/inga.php-mob-programming.git
 ```
 
@@ -40,7 +40,7 @@ git clone git@github.com:ByIvo/inga.php-mob-programming.git
 
 Dentro da pasta do projeto, execute
 
-```sh
+```shell
 composer install
 ```
 
@@ -50,8 +50,15 @@ Ou caso possua o Docker:
 docker run -it --rm -v $(pwd):/app composer:2.0.8 install
 ```
 
-### FAQ
+#### Rodar os testes
 
-##### O que é um MobProgramming?
-##### Qual IDE devo usar?
-##### Qual será o desafio proposto?
+Dentro da pasta do projeto, execute
+```shell
+composer test
+```
+
+Ou caso possua o Docker:
+
+```shell
+docker run -it --rm -v $(pwd):/app composer:2.0.8 test
+```
