@@ -6,7 +6,7 @@ Salve pessoas, esse repositório é exclusivamente dedicado as soluções dos de
 
 Para participar, é importante que você cumpra todos os [requisitos](#requisitos) mencionados.
 
-### Conteúdo do repositório
+### Dependências
 
 1. PHP 7.4.14 (cli) (built: Jan 16 2021 00:10:32) ( NTS )
 2. Composer version 2.0.8 2020-12-03 17:20:38
@@ -14,7 +14,13 @@ Para participar, é importante que você cumpra todos os [requisitos](#requisito
 
 ### Requisitos
 
- #### Instalar a ferramenta de troca de código
+#### Para usuários Docker
+
+```sh
+alias composer="docker run -it --rm -v $(pwd):/app composer:2.0.8 composer"
+```
+
+#### Instalar a ferramenta de troca de código
 
 Basta acessar o repositório do [mob CLI](https://github.com/remotemobprogramming/mob) e seguir o passo-a-passo.
 
@@ -56,14 +62,4 @@ PHPUnit 9.5.1 by Sebastian Bergmann and contributors.
 Time: 00:00.144, Memory: 4.00 MB
 
 OK (1 test, 1 assertion)
-```
-
-##### Para usuários Docker
-
-```sh
-docker run -it --rm -v $(pwd):/app composer:2.0.8 install
-```
-
-```shell
-docker run -it --rm -v $(pwd):/app composer:2.0.8 test
 ```
