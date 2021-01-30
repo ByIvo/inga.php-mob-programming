@@ -14,7 +14,7 @@ Para participar, é importante que você cumpra todos os [requisitos](#requisito
 
 ### Requisitos
 
-#### Instalar a ferramenta de troca de código
+ #### Instalar a ferramenta de troca de código
 
 Basta acessar o repositório do [mob CLI](https://github.com/remotemobprogramming/mob) e seguir o passo-a-passo.
 
@@ -32,7 +32,7 @@ Executar o seguinte comando na sua pasta de projetos:
 git clone git@github.com:ByIvo/inga.php-mob-programming.git
 ```
 
-#### Instalar as dependências
+ #### Instalar as dependências
 
 Dentro da pasta do projeto, execute
 
@@ -40,20 +40,29 @@ Dentro da pasta do projeto, execute
 composer install
 ```
 
-Ou caso possua o Docker:
+Na sequência, execute os testes
 
-```sh
-docker run -it --rm -v $(pwd):/app composer:2.0.8 install
-```
-
-#### Rodar os testes
-
-Dentro da pasta do projeto, execute
 ```shell
 composer test
 ```
 
-Ou caso possua o Docker:
+Seus testes rodaram com sucesso se em seu terminal existir uma saída como essa:
+
+```shell
+PHPUnit 9.5.1 by Sebastian Bergmann and contributors.
+
+.                                                                   1 / 1 (100%)
+
+Time: 00:00.144, Memory: 4.00 MB
+
+OK (1 test, 1 assertion)
+```
+
+##### Para usuários Docker
+
+```sh
+docker run -it --rm -v $(pwd):/app composer:2.0.8 install
+```
 
 ```shell
 docker run -it --rm -v $(pwd):/app composer:2.0.8 test
